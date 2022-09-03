@@ -1,0 +1,158 @@
+/**Estilo pagina Petshop*/
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: roboto_clase;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: roboto_clase;
+}
+
+.sectionone{
+    display: flex;
+    height:20px; 
+    background-color:#222222; 
+    color: #F3F3F3;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 35px;
+}
+select{
+    border: 0;
+    background: none;
+    color: #F3F3F3;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 110px; 
+    background-color:#F0A83E; 
+    color: #F3F3F3;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sectionmain{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+}
+.divone{
+    position: relative;
+    height: 145px;
+    width: 400px;
+    text-align: center;
+
+}
+.pmain{
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffff;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 30px;
+
+}
+.ptwo{
+    text-align: center;
+    margin: 13px;
+}    
+.buttonone{
+    background-color: #F0A83E;
+    color: white;
+    border: 0px;
+    border-radius: 5PX;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 25px 15px 25px;
+
+}
+
+
+
+h1{
+
+}
+
+.imgtwo{
+    height: auto;
+    width: 100%;
+}
+
+
+.sectiontwo{
+    text-align: center;
+}
+
+.destacados{
+    margin-top: 17px;
+    margin-bottom: 37px;
+}
+
+.sectionthree{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: #3C2313;
+    font-weight: 600;
+}
+.price{
+    color: #F0A83E;
+    font-weight: 600;
+}
+
+.pdestacado{
+    background-color: #FBFAF6;
+    width: 270px;
+    height: 320;
+}
+
+.sectionfour{
+    background-color: #3C2313; 
+    color:#F3F3F3
+}
+
+.sectionfive{
+   height:60; 
+   background-color:#F0A83E;
+   color: #ffff;
+}
+
+.pone{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.pfour{
+    background-color: #222222; 
+    color: #F3F3F3;
+    text-align: center;
+
+}
+
+.imgthree{
+    width: 58px;
+    height: 60px;
+}
