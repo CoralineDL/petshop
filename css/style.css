@@ -90,6 +90,8 @@ a{
 
 
 h1{
+  font-size: 40px;
+  color: #3C2313
 
 }
 
@@ -155,4 +157,55 @@ h1{
 .imgthree{
     width: 58px;
     height: 60px;
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 414px) {
+    .sectionone{
+        display: none;
+    } 
+
+    header .logo nav{
+        display: none;
+    }
+
+    header .menu{
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .sectionmain{
+        background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.jpg);
+        background-size: content;
+        height: 440px;
+        width: 413px;
+        display: flex;
+        justify-content: right;
+        padding-right: 20px;
+        align-items: right;
+    }
+    
+    .divone{
+        position: relative;
+        height: 145px;
+        width: 400px;
+        text-align: right;
+    
+    }
+    .ptwo{
+        text-align: right;
+        margin: 13px;
+        font-size: 1rem;
+    }   
+
+    .prodes{
+        display: block;
+        max-reso;
+
+    }
+
 }
